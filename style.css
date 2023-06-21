@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10rem;
+    background-color: #131d2f;
+    color: white;
+}
+
+.container{
+    width: 20rem;
+    background: white;
+    border-radius: 10px;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 20px 25px -5px1 rgb(0, 0, 0 / 0.1), 0 8px 10px -6px rgb(0, 0, 0 / 0.1);
+}
+
+#captcha{
+    border-radius: 5px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type='text']{
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: none;
+    width: 100%;
+    margin: 12px 0;
+}
+
+button{
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+canvas{
+    pointer-events: none;
+}
